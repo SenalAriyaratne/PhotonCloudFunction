@@ -13,7 +13,7 @@ int ledtoggle(String command)
         return 1;
         
     }
-    else if ( command == "green") 
+    else if ( command == "blue") 
     {
         digitalWrite(ledg,HIGH);
         digitalWrite(ledr,LOW);
@@ -22,7 +22,7 @@ int ledtoggle(String command)
         return 1;
         
     }
-    else if (command == "blue")
+    else if (command == "green")
     {
         digitalWrite(ledga,HIGH);
         digitalWrite(ledr,LOW);
